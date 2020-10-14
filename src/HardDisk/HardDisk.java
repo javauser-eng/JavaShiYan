@@ -1,8 +1,8 @@
 package HardDisk;
 
 public class HardDisk {
-	int amount;
-	char model;
+	private int amount;
+	String model;
 	char brand;
 	public	HardDisk(){
 		

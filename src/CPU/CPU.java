@@ -1,8 +1,8 @@
 package CPU;
 
 public class CPU {
-	int speed;
-	char model;
+	private int speed;
+	String model;
 	char brand;
 	public CPU(){
 		
