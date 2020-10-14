@@ -1,5 +1,5 @@
 # Java-LabReport
-## 实验内容
+## 一.实验内容
 
 + 1.基本要求是完成教材p110页的第四题关于PC、cpu及其他模拟的程序。
 + 2.附加要求：{
@@ -12,7 +12,7 @@
 &emsp;且定义的方法内应该有符合常理的逻辑判断；  
     4.尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法。}
     
-## 实验设计
+## 二.实验设计
 
 1.设置硬盘对象，并给硬盘对象创建amount方法。  
 &emsp;设置amount方法在硬盘对象外不可访问：
@@ -28,7 +28,7 @@ public class CPU {
 ```
 3.额外创建了model、brand对象。
 
-## 核心方法  
+## 三.核心方法  
 1.  
 ```
 public void setCpu(CPU cpu){
@@ -43,12 +43,12 @@ public void setCpu(CPU cpu){
 CPU cpu =new CPU();
 HardDisk HD=new HardDisk();
 ```  
-5.实验结果  
+## 四.实验结果  
 ```
 CPUspeed:2200
 HDamount:200
 ```  
-## 实验感想  
+## 五.实验感想  
 1.通过这次实验我学习到了public、private的不同；  
 2.练习了构建方法；  
 3.练习了多种类型的定义；  
