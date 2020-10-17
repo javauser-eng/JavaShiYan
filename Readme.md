@@ -2,7 +2,7 @@
 ## 一.实验内容
 
 + 1.基本要求是完成教材p110页的第四题关于PC、cpu及其他模拟的程序。
-+ 2.附加要求：{
++ 2.附加要求：{  
     1.类中定义不少于两个构造方法；  
     2.每个类定义不少于2个属性，且属性的类型应该多样化；     
     3.根据课堂中关于访问权限的内容，尝试定义  
@@ -51,6 +51,7 @@ public void setCpu(CPU cpu){
 CPU cpu =new CPU();
 HardDisk HD=new HardDisk();
 ```  
+3.
 ```
 PC pc=new PC();
 pc.setCpu(cpu);
