@@ -1,3 +1,4 @@
+
 package PC;
 
 import CPU.CPU;
@@ -13,7 +14,9 @@ public class PC {
 		this.HD=HD;
 	}
 	public void show(){
-		System.out.println("CPUÀŸ∂»:"+cpu.getSpeed());	
-		System.out.println("”≤≈Ã»›¡ø:"+HD.getAmount());	
+		System.out.println("CPUspeed:"+cpu.getSpeed());	
+		System.out.println("CPUbrand:"+cpu.getBrand());	
+		System.out.println("HDamount:"+HD.getBrand());
+		System.out.println("HDamount:"+HD.getAmount());	
 	}
 }
