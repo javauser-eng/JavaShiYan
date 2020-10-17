@@ -3,7 +3,6 @@
 
 + 1.基本要求是完成教材p110页的第四题关于PC、cpu及其他模拟的程序。
 + 2.附加要求：{
-
     1.类中定义不少于两个构造方法；  
     2.每个类定义不少于2个属性，且属性的类型应该多样化；     
     3.根据课堂中关于访问权限的内容，尝试定义  
@@ -27,7 +26,16 @@ public class CPU {
 	private int speed;
 ```
 3.额外创建了model、brand对象。
-
+```
+public class CPU {
+	String model;
+	String brand;
+```
+```
+public class HardDisk {
+	String model;
+	String brand;
+```
 ## 三.核心方法  
 1.  
 ```
@@ -43,13 +51,21 @@ public void setCpu(CPU cpu){
 CPU cpu =new CPU();
 HardDisk HD=new HardDisk();
 ```  
+```
+PC pc=new PC();
+pc.setCpu(cpu);
+pc.setHardDisk(HD);
+pc.show();
+```
 ## 四.实验结果  
 ```
 CPUspeed:2200
+CPUbrand:酷睿
+HDamount:希捷
 HDamount:200
 ```  
 ## 五.实验感想  
-1.通过这次实验我学习到了public、private的不同；  
+1.通过这次实验我学习了public、private两种修饰符的作用区域；  
 2.练习了构建方法；  
 3.练习了多种类型的定义；  
 4.练习了包外调用。
