@@ -15,6 +15,8 @@ public class PC {
 	}
 	public void show(){
 		System.out.println("CPUspeed:"+cpu.getSpeed());	
+		System.out.println("CPUbrand:"+cpu.getBrand());	
+		System.out.println("HDamount:"+HD.getBrand());
 		System.out.println("HDamount:"+HD.getAmount());	
 	}
 }
